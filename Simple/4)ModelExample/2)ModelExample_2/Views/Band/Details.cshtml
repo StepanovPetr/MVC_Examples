@@ -1,0 +1,62 @@
+﻿
+@using Model_1;
+@{
+    @model Band
+
+    ViewBag.Title = "Пример привязки модели";
+
+}
+<div class="row">
+    <label class="col-md-2">Название Группы</label>
+    @Html.DisplayFor(m => m.Name, new { @class = "col-md-2" });
+</div>
+<div class="row">
+    <label class="col-md-2">Жанр Группы</label>
+    @Html.DisplayFor(m => m.Genre, new { @class = "col-md-2" });
+</div>
+<div class="row">
+    <label class="col-md-2">Город</label>
+    @Html.DisplayFor(m => m.City, new { @class = "col-md-2" });
+</div>
+<div class="row">
+    <label class="col-md-2">Год основания</label>
+    @Html.DisplayFor(m => m.YearOfBirth, new { @class = "col-md-2" });
+</div>
+
+<h1><label class="col-md-2">Группа :</label> </h1> <br> <br> <br>
+
+@*вывод списка учасников группы*@
+@if (Model.Musicants != null)
+{
+for(int i = 0; i < Model.Musicants.Count; i++)
+{
+    <div class="row">
+        <label class="col-md-2">Имя</label>
+        <div class="col-md-2">
+            @Html.DisplayFor(model => model.Musicants[i].Name);
+        </div>
+        <label class="col-md-2">Инструмент</label>
+        <div class="col-md-2">
+            @Html.DisplayFor(model => model.Musicants[i].MusicalInstrument);
+        </div>
+    </div>
+}
+}
+<h1><label class="col-md-2">Альбомы:</label> </h1> <br> <br> <br>
+@*вывод учасников списка альбомов*@
+@if (Model.Albums != null)
+{
+for (int i = 0; i < Model.Albums.Count; i++)
+{
+    <div class="row">
+        <label class="col-md-2">Название</label>
+        <div class="col-md-2">
+            @Html.DisplayFor(model => model.Albums[i].Name);
+        </div>
+        <label class="col-md-2">Год выхода</label>
+        <div class="col-md-2">
+            @Html.DisplayFor(model => model.Albums[i].YearOfBirth.Year);
+        </div>
+    </div>
+}
+}

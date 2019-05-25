@@ -1,0 +1,2 @@
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\NutiTestsControllerExample\obj\Debug\NutiTestsControllerExample.csprojResolveAssemblyReference.cache
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\NutiTestsControllerExample\obj\Debug\NutiTestsControllerExample.csproj.CoreCompileInputs.cache

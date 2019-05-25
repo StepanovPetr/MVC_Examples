@@ -1,0 +1,10 @@
+C:\Users\DruiD\Desktop\Методичка\4)ModelExample\Model_1\bin\Debug\Model_1.dll
+C:\Users\DruiD\Desktop\Методичка\4)ModelExample\Model_1\bin\Debug\Model_1.pdb
+C:\Users\DruiD\Desktop\Методичка\4)ModelExample\Model_1\obj\Debug\Model_1.csprojResolveAssemblyReference.cache
+C:\Users\DruiD\Desktop\Методичка\4)ModelExample\Model_1\obj\Debug\Model_1.dll
+C:\Users\DruiD\Desktop\Методичка\4)ModelExample\Model_1\obj\Debug\Model_1.pdb
+E:\исходники\C# MVC\Методичка\4)ModelExample\Model_1\bin\Debug\Model_1.dll
+E:\исходники\C# MVC\Методичка\4)ModelExample\Model_1\bin\Debug\Model_1.pdb
+E:\исходники\C# MVC\Методичка\4)ModelExample\Model_1\obj\Debug\Model_1.csprojResolveAssemblyReference.cache
+E:\исходники\C# MVC\Методичка\4)ModelExample\Model_1\obj\Debug\Model_1.dll
+E:\исходники\C# MVC\Методичка\4)ModelExample\Model_1\obj\Debug\Model_1.pdb

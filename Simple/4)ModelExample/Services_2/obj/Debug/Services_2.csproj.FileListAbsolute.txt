@@ -1,0 +1,28 @@
+E:\исходники\C# MVC\Методичка\4)ModelExample\Services_2\bin\Debug\Services_2.dll.config
+E:\исходники\C# MVC\Методичка\4)ModelExample\Services_2\bin\Debug\Services_2.dll
+E:\исходники\C# MVC\Методичка\4)ModelExample\Services_2\bin\Debug\Services_2.pdb
+E:\исходники\C# MVC\Методичка\4)ModelExample\Services_2\bin\Debug\EntityFramework.dll
+E:\исходники\C# MVC\Методичка\4)ModelExample\Services_2\bin\Debug\EntityFramework.SqlServer.dll
+E:\исходники\C# MVC\Методичка\4)ModelExample\Services_2\bin\Debug\Model_2.dll
+E:\исходники\C# MVC\Методичка\4)ModelExample\Services_2\bin\Debug\Model_2.pdb
+E:\исходники\C# MVC\Методичка\4)ModelExample\Services_2\bin\Debug\EntityFramework.xml
+E:\исходники\C# MVC\Методичка\4)ModelExample\Services_2\bin\Debug\EntityFramework.SqlServer.xml
+E:\исходники\C# MVC\Методичка\4)ModelExample\Services_2\obj\Debug\Services_2.csprojResolveAssemblyReference.cache
+E:\исходники\C# MVC\Методичка\4)ModelExample\Services_2\obj\Debug\Services_2.dll
+E:\исходники\C# MVC\Методичка\4)ModelExample\Services_2\obj\Debug\Services_2.pdb
+E:\исходники\C# MVC\Методичка\4)ModelExample\Services_2\bin\Debug\MyContext.dll
+E:\исходники\C# MVC\Методичка\4)ModelExample\Services_2\bin\Debug\MyContext.pdb
+C:\Users\DruiD\Desktop\Методичка\4)ModelExample\Services_2\bin\Debug\Services_2.dll.config
+C:\Users\DruiD\Desktop\Методичка\4)ModelExample\Services_2\bin\Debug\Services_2.dll
+C:\Users\DruiD\Desktop\Методичка\4)ModelExample\Services_2\bin\Debug\Services_2.pdb
+C:\Users\DruiD\Desktop\Методичка\4)ModelExample\Services_2\bin\Debug\EntityFramework.dll
+C:\Users\DruiD\Desktop\Методичка\4)ModelExample\Services_2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\DruiD\Desktop\Методичка\4)ModelExample\Services_2\bin\Debug\Model_2.dll
+C:\Users\DruiD\Desktop\Методичка\4)ModelExample\Services_2\bin\Debug\MyContext.dll
+C:\Users\DruiD\Desktop\Методичка\4)ModelExample\Services_2\bin\Debug\Model_2.pdb
+C:\Users\DruiD\Desktop\Методичка\4)ModelExample\Services_2\bin\Debug\MyContext.pdb
+C:\Users\DruiD\Desktop\Методичка\4)ModelExample\Services_2\bin\Debug\EntityFramework.xml
+C:\Users\DruiD\Desktop\Методичка\4)ModelExample\Services_2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\DruiD\Desktop\Методичка\4)ModelExample\Services_2\obj\Debug\Services_2.csprojResolveAssemblyReference.cache
+C:\Users\DruiD\Desktop\Методичка\4)ModelExample\Services_2\obj\Debug\Services_2.dll
+C:\Users\DruiD\Desktop\Методичка\4)ModelExample\Services_2\obj\Debug\Services_2.pdb

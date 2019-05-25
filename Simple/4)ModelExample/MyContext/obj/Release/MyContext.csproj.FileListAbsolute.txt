@@ -1,0 +1,12 @@
+E:\исходники\C# MVC\Методичка\4)ModelExample\MyContext\bin\Release\MyContext.dll.config
+E:\исходники\C# MVC\Методичка\4)ModelExample\MyContext\bin\Release\MyContext.dll
+E:\исходники\C# MVC\Методичка\4)ModelExample\MyContext\bin\Release\MyContext.pdb
+E:\исходники\C# MVC\Методичка\4)ModelExample\MyContext\bin\Release\EntityFramework.dll
+E:\исходники\C# MVC\Методичка\4)ModelExample\MyContext\bin\Release\EntityFramework.SqlServer.dll
+E:\исходники\C# MVC\Методичка\4)ModelExample\MyContext\bin\Release\Model_2.dll
+E:\исходники\C# MVC\Методичка\4)ModelExample\MyContext\bin\Release\Model_2.pdb
+E:\исходники\C# MVC\Методичка\4)ModelExample\MyContext\bin\Release\EntityFramework.xml
+E:\исходники\C# MVC\Методичка\4)ModelExample\MyContext\bin\Release\EntityFramework.SqlServer.xml
+E:\исходники\C# MVC\Методичка\4)ModelExample\MyContext\obj\Release\MyContext.csprojResolveAssemblyReference.cache
+E:\исходники\C# MVC\Методичка\4)ModelExample\MyContext\obj\Release\MyContext.dll
+E:\исходники\C# MVC\Методичка\4)ModelExample\MyContext\obj\Release\MyContext.pdb

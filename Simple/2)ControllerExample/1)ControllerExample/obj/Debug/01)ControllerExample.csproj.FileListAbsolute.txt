@@ -1,0 +1,149 @@
+E:\исходники\C# MVC\Методичка\2)ControllerExample\ControllerExample\bin\ApplicationInsights.config
+E:\исходники\C# MVC\Методичка\2)ControllerExample\ControllerExample\bin\roslyn\csc.exe
+E:\исходники\C# MVC\Методичка\2)ControllerExample\ControllerExample\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\исходники\C# MVC\Методичка\2)ControllerExample\ControllerExample\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\исходники\C# MVC\Методичка\2)ControllerExample\ControllerExample\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\исходники\C# MVC\Методичка\2)ControllerExample\ControllerExample\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\исходники\C# MVC\Методичка\2)ControllerExample\ControllerExample\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\исходники\C# MVC\Методичка\2)ControllerExample\ControllerExample\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\исходники\C# MVC\Методичка\2)ControllerExample\ControllerExample\bin\roslyn\System.Collections.Immutable.dll
+E:\исходники\C# MVC\Методичка\2)ControllerExample\ControllerExample\bin\roslyn\System.Reflection.Metadata.dll
+E:\исходники\C# MVC\Методичка\2)ControllerExample\ControllerExample\bin\roslyn\vbc.exe
+E:\исходники\C# MVC\Методичка\2)ControllerExample\ControllerExample\bin\roslyn\VBCSCompiler.exe
+E:\исходники\C# MVC\Методичка\2)ControllerExample\ControllerExample\bin\roslyn\VBCSCompiler.exe.config
+E:\исходники\C# MVC\Методичка\2)ControllerExample\ControllerExample\bin\ControllerExample.dll.config
+E:\исходники\C# MVC\Методичка\2)ControllerExample\ControllerExample\bin\ControllerExample.dll
+E:\исходники\C# MVC\Методичка\2)ControllerExample\ControllerExample\bin\ControllerExample.pdb
+E:\исходники\C# MVC\Методичка\2)ControllerExample\ControllerExample\bin\Microsoft.AI.Agent.Intercept.dll
+E:\исходники\C# MVC\Методичка\2)ControllerExample\ControllerExample\bin\Microsoft.AI.DependencyCollector.dll
+E:\исходники\C# MVC\Методичка\2)ControllerExample\ControllerExample\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\исходники\C# MVC\Методичка\2)ControllerExample\ControllerExample\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\исходники\C# MVC\Методичка\2)ControllerExample\ControllerExample\bin\Microsoft.AI.Web.dll
+E:\исходники\C# MVC\Методичка\2)ControllerExample\ControllerExample\bin\Microsoft.AI.WindowsServer.dll
+E:\исходники\C# MVC\Методичка\2)ControllerExample\ControllerExample\bin\Microsoft.ApplicationInsights.dll
+E:\исходники\C# MVC\Методичка\2)ControllerExample\ControllerExample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\исходники\C# MVC\Методичка\2)ControllerExample\ControllerExample\bin\Microsoft.Web.Infrastructure.dll
+E:\исходники\C# MVC\Методичка\2)ControllerExample\ControllerExample\bin\nunit.framework.dll
+E:\исходники\C# MVC\Методичка\2)ControllerExample\ControllerExample\bin\System.Web.Helpers.dll
+E:\исходники\C# MVC\Методичка\2)ControllerExample\ControllerExample\bin\System.Web.Mvc.dll
+E:\исходники\C# MVC\Методичка\2)ControllerExample\ControllerExample\bin\System.Web.Razor.dll
+E:\исходники\C# MVC\Методичка\2)ControllerExample\ControllerExample\bin\System.Web.Webpages.Deployment.dll
+E:\исходники\C# MVC\Методичка\2)ControllerExample\ControllerExample\bin\System.Web.Webpages.dll
+E:\исходники\C# MVC\Методичка\2)ControllerExample\ControllerExample\bin\System.Web.Webpages.Razor.dll
+E:\исходники\C# MVC\Методичка\2)ControllerExample\ControllerExample\bin\Microsoft.AI.DependencyCollector.xml
+E:\исходники\C# MVC\Методичка\2)ControllerExample\ControllerExample\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\исходники\C# MVC\Методичка\2)ControllerExample\ControllerExample\bin\Microsoft.AI.Web.xml
+E:\исходники\C# MVC\Методичка\2)ControllerExample\ControllerExample\bin\Microsoft.AI.WindowsServer.xml
+E:\исходники\C# MVC\Методичка\2)ControllerExample\ControllerExample\bin\Microsoft.ApplicationInsights.xml
+E:\исходники\C# MVC\Методичка\2)ControllerExample\ControllerExample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\исходники\C# MVC\Методичка\2)ControllerExample\ControllerExample\bin\nunit.framework.pdb
+E:\исходники\C# MVC\Методичка\2)ControllerExample\ControllerExample\bin\nunit.framework.xml
+E:\исходники\C# MVC\Методичка\2)ControllerExample\ControllerExample\bin\System.Web.Razor.xml
+E:\исходники\C# MVC\Методичка\2)ControllerExample\ControllerExample\bin\System.Web.Webpages.xml
+E:\исходники\C# MVC\Методичка\2)ControllerExample\ControllerExample\bin\System.Web.Webpages.Deployment.xml
+E:\исходники\C# MVC\Методичка\2)ControllerExample\ControllerExample\bin\System.Web.Webpages.Razor.xml
+E:\исходники\C# MVC\Методичка\2)ControllerExample\ControllerExample\bin\System.Web.Helpers.xml
+E:\исходники\C# MVC\Методичка\2)ControllerExample\ControllerExample\bin\System.Web.Mvc.xml
+E:\исходники\C# MVC\Методичка\2)ControllerExample\ControllerExample\obj\Debug\01)ControllerExample.csprojResolveAssemblyReference.cache
+E:\исходники\C# MVC\Методичка\2)ControllerExample\ControllerExample\obj\Debug\ControllerExample.dll
+E:\исходники\C# MVC\Методичка\2)ControllerExample\ControllerExample\obj\Debug\ControllerExample.pdb
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\ControllerExample\bin\ApplicationInsights.config
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\ControllerExample\bin\roslyn\csc.exe
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\ControllerExample\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\ControllerExample\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\ControllerExample\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\ControllerExample\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\ControllerExample\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\ControllerExample\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\ControllerExample\bin\roslyn\System.Collections.Immutable.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\ControllerExample\bin\roslyn\System.Reflection.Metadata.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\ControllerExample\bin\roslyn\vbc.exe
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\ControllerExample\bin\roslyn\VBCSCompiler.exe
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\ControllerExample\bin\roslyn\VBCSCompiler.exe.config
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\ControllerExample\bin\ControllerExample.dll.config
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\ControllerExample\bin\ControllerExample.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\ControllerExample\bin\ControllerExample.pdb
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\ControllerExample\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\ControllerExample\bin\Microsoft.AI.DependencyCollector.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\ControllerExample\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\ControllerExample\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\ControllerExample\bin\Microsoft.AI.Web.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\ControllerExample\bin\Microsoft.AI.WindowsServer.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\ControllerExample\bin\Microsoft.ApplicationInsights.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\ControllerExample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\ControllerExample\bin\Microsoft.Web.Infrastructure.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\ControllerExample\bin\nunit.framework.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\ControllerExample\bin\System.Web.Helpers.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\ControllerExample\bin\System.Web.Mvc.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\ControllerExample\bin\System.Web.Razor.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\ControllerExample\bin\System.Web.Webpages.Deployment.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\ControllerExample\bin\System.Web.Webpages.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\ControllerExample\bin\System.Web.Webpages.Razor.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\ControllerExample\bin\Microsoft.AI.DependencyCollector.xml
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\ControllerExample\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\ControllerExample\bin\Microsoft.AI.Web.xml
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\ControllerExample\bin\Microsoft.AI.WindowsServer.xml
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\ControllerExample\bin\Microsoft.ApplicationInsights.xml
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\ControllerExample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\ControllerExample\bin\nunit.framework.pdb
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\ControllerExample\bin\nunit.framework.xml
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\ControllerExample\bin\System.Web.Razor.xml
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\ControllerExample\bin\System.Web.Webpages.xml
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\ControllerExample\bin\System.Web.Webpages.Deployment.xml
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\ControllerExample\bin\System.Web.Webpages.Razor.xml
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\ControllerExample\bin\System.Web.Helpers.xml
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\ControllerExample\bin\System.Web.Mvc.xml
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\ControllerExample\obj\Debug\01)ControllerExample.csprojResolveAssemblyReference.cache
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\ControllerExample\obj\Debug\01)ControllerExample.csproj.CoreCompileInputs.cache
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\ControllerExample\obj\Debug\ControllerExample.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\ControllerExample\obj\Debug\ControllerExample.pdb
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\1)ControllerExample\bin\ApplicationInsights.config
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\1)ControllerExample\bin\roslyn\csc.exe
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\1)ControllerExample\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\1)ControllerExample\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\1)ControllerExample\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\1)ControllerExample\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\1)ControllerExample\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\1)ControllerExample\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\1)ControllerExample\bin\roslyn\System.Collections.Immutable.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\1)ControllerExample\bin\roslyn\System.Reflection.Metadata.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\1)ControllerExample\bin\roslyn\vbc.exe
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\1)ControllerExample\bin\roslyn\VBCSCompiler.exe
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\1)ControllerExample\bin\roslyn\VBCSCompiler.exe.config
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\1)ControllerExample\bin\ControllerExample.dll.config
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\1)ControllerExample\bin\ControllerExample.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\1)ControllerExample\bin\ControllerExample.pdb
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\1)ControllerExample\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\1)ControllerExample\bin\Microsoft.AI.DependencyCollector.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\1)ControllerExample\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\1)ControllerExample\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\1)ControllerExample\bin\Microsoft.AI.Web.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\1)ControllerExample\bin\Microsoft.AI.WindowsServer.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\1)ControllerExample\bin\Microsoft.ApplicationInsights.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\1)ControllerExample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\1)ControllerExample\bin\Microsoft.Web.Infrastructure.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\1)ControllerExample\bin\nunit.framework.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\1)ControllerExample\bin\System.Web.Helpers.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\1)ControllerExample\bin\System.Web.Mvc.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\1)ControllerExample\bin\System.Web.Razor.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\1)ControllerExample\bin\System.Web.Webpages.Deployment.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\1)ControllerExample\bin\System.Web.Webpages.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\1)ControllerExample\bin\System.Web.Webpages.Razor.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\1)ControllerExample\bin\Microsoft.AI.DependencyCollector.xml
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\1)ControllerExample\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\1)ControllerExample\bin\Microsoft.AI.Web.xml
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\1)ControllerExample\bin\Microsoft.AI.WindowsServer.xml
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\1)ControllerExample\bin\Microsoft.ApplicationInsights.xml
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\1)ControllerExample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\1)ControllerExample\bin\nunit.framework.pdb
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\1)ControllerExample\bin\nunit.framework.xml
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\1)ControllerExample\bin\System.Web.Razor.xml
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\1)ControllerExample\bin\System.Web.Webpages.xml
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\1)ControllerExample\bin\System.Web.Webpages.Deployment.xml
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\1)ControllerExample\bin\System.Web.Webpages.Razor.xml
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\1)ControllerExample\bin\System.Web.Helpers.xml
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\1)ControllerExample\bin\System.Web.Mvc.xml
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\1)ControllerExample\obj\Debug\01)ControllerExample.csprojResolveAssemblyReference.cache
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\1)ControllerExample\obj\Debug\01)ControllerExample.csproj.CoreCompileInputs.cache
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\1)ControllerExample\obj\Debug\ControllerExample.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\1)ControllerExample\obj\Debug\ControllerExample.pdb

@@ -1,0 +1,5 @@
+E:\исходники\C# MVC\Методичка\4)ModelExample\Model_2\bin\Debug\Model_2.dll
+E:\исходники\C# MVC\Методичка\4)ModelExample\Model_2\bin\Debug\Model_2.pdb
+E:\исходники\C# MVC\Методичка\4)ModelExample\Model_2\obj\Debug\Model_2.dll
+E:\исходники\C# MVC\Методичка\4)ModelExample\Model_2\obj\Debug\Model_2.pdb
+E:\исходники\C# MVC\Методичка\4)ModelExample\Model_2\obj\Debug\Model_2.csprojResolveAssemblyReference.cache

@@ -1,0 +1,24 @@
+E:\исходники\C# MVC\Методичка\4)ModelExample\MyContext\obj\Debug\MyContext.csprojResolveAssemblyReference.cache
+E:\исходники\C# MVC\Методичка\4)ModelExample\MyContext\bin\Debug\MyContext.dll.config
+E:\исходники\C# MVC\Методичка\4)ModelExample\MyContext\bin\Debug\MyContext.dll
+E:\исходники\C# MVC\Методичка\4)ModelExample\MyContext\bin\Debug\MyContext.pdb
+E:\исходники\C# MVC\Методичка\4)ModelExample\MyContext\bin\Debug\EntityFramework.dll
+E:\исходники\C# MVC\Методичка\4)ModelExample\MyContext\bin\Debug\EntityFramework.SqlServer.dll
+E:\исходники\C# MVC\Методичка\4)ModelExample\MyContext\bin\Debug\Model_2.dll
+E:\исходники\C# MVC\Методичка\4)ModelExample\MyContext\bin\Debug\Model_2.pdb
+E:\исходники\C# MVC\Методичка\4)ModelExample\MyContext\bin\Debug\EntityFramework.xml
+E:\исходники\C# MVC\Методичка\4)ModelExample\MyContext\bin\Debug\EntityFramework.SqlServer.xml
+E:\исходники\C# MVC\Методичка\4)ModelExample\MyContext\obj\Debug\MyContext.dll
+E:\исходники\C# MVC\Методичка\4)ModelExample\MyContext\obj\Debug\MyContext.pdb
+C:\Users\DruiD\Desktop\Методичка\4)ModelExample\MyContext\bin\Debug\MyContext.dll.config
+C:\Users\DruiD\Desktop\Методичка\4)ModelExample\MyContext\bin\Debug\MyContext.dll
+C:\Users\DruiD\Desktop\Методичка\4)ModelExample\MyContext\bin\Debug\MyContext.pdb
+C:\Users\DruiD\Desktop\Методичка\4)ModelExample\MyContext\bin\Debug\EntityFramework.dll
+C:\Users\DruiD\Desktop\Методичка\4)ModelExample\MyContext\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\DruiD\Desktop\Методичка\4)ModelExample\MyContext\bin\Debug\Model_2.dll
+C:\Users\DruiD\Desktop\Методичка\4)ModelExample\MyContext\bin\Debug\Model_2.pdb
+C:\Users\DruiD\Desktop\Методичка\4)ModelExample\MyContext\bin\Debug\EntityFramework.xml
+C:\Users\DruiD\Desktop\Методичка\4)ModelExample\MyContext\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\DruiD\Desktop\Методичка\4)ModelExample\MyContext\obj\Debug\MyContext.csprojResolveAssemblyReference.cache
+C:\Users\DruiD\Desktop\Методичка\4)ModelExample\MyContext\obj\Debug\MyContext.dll
+C:\Users\DruiD\Desktop\Методичка\4)ModelExample\MyContext\obj\Debug\MyContext.pdb

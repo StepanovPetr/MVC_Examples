@@ -1,0 +1,99 @@
+E:\исходники\C# MVC\Методичка\2)ControllerExample\6)Authorize\bin\ApplicationInsights.config
+E:\исходники\C# MVC\Методичка\2)ControllerExample\6)Authorize\bin\roslyn\csc.exe
+E:\исходники\C# MVC\Методичка\2)ControllerExample\6)Authorize\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\исходники\C# MVC\Методичка\2)ControllerExample\6)Authorize\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\исходники\C# MVC\Методичка\2)ControllerExample\6)Authorize\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\исходники\C# MVC\Методичка\2)ControllerExample\6)Authorize\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\исходники\C# MVC\Методичка\2)ControllerExample\6)Authorize\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\исходники\C# MVC\Методичка\2)ControllerExample\6)Authorize\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\исходники\C# MVC\Методичка\2)ControllerExample\6)Authorize\bin\roslyn\System.Collections.Immutable.dll
+E:\исходники\C# MVC\Методичка\2)ControllerExample\6)Authorize\bin\roslyn\System.Reflection.Metadata.dll
+E:\исходники\C# MVC\Методичка\2)ControllerExample\6)Authorize\bin\roslyn\vbc.exe
+E:\исходники\C# MVC\Методичка\2)ControllerExample\6)Authorize\bin\roslyn\VBCSCompiler.exe
+E:\исходники\C# MVC\Методичка\2)ControllerExample\6)Authorize\bin\roslyn\VBCSCompiler.exe.config
+E:\исходники\C# MVC\Методичка\2)ControllerExample\6)Authorize\bin\6)Authorize.dll.config
+E:\исходники\C# MVC\Методичка\2)ControllerExample\6)Authorize\bin\6)Authorize.dll
+E:\исходники\C# MVC\Методичка\2)ControllerExample\6)Authorize\bin\6)Authorize.pdb
+E:\исходники\C# MVC\Методичка\2)ControllerExample\6)Authorize\bin\Microsoft.AI.Agent.Intercept.dll
+E:\исходники\C# MVC\Методичка\2)ControllerExample\6)Authorize\bin\Microsoft.AI.DependencyCollector.dll
+E:\исходники\C# MVC\Методичка\2)ControllerExample\6)Authorize\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\исходники\C# MVC\Методичка\2)ControllerExample\6)Authorize\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\исходники\C# MVC\Методичка\2)ControllerExample\6)Authorize\bin\Microsoft.AI.Web.dll
+E:\исходники\C# MVC\Методичка\2)ControllerExample\6)Authorize\bin\Microsoft.AI.WindowsServer.dll
+E:\исходники\C# MVC\Методичка\2)ControllerExample\6)Authorize\bin\Microsoft.ApplicationInsights.dll
+E:\исходники\C# MVC\Методичка\2)ControllerExample\6)Authorize\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\исходники\C# MVC\Методичка\2)ControllerExample\6)Authorize\bin\Microsoft.Web.Infrastructure.dll
+E:\исходники\C# MVC\Методичка\2)ControllerExample\6)Authorize\bin\nunit.framework.dll
+E:\исходники\C# MVC\Методичка\2)ControllerExample\6)Authorize\bin\System.Web.Helpers.dll
+E:\исходники\C# MVC\Методичка\2)ControllerExample\6)Authorize\bin\System.Web.Mvc.dll
+E:\исходники\C# MVC\Методичка\2)ControllerExample\6)Authorize\bin\System.Web.Razor.dll
+E:\исходники\C# MVC\Методичка\2)ControllerExample\6)Authorize\bin\System.Web.Webpages.Deployment.dll
+E:\исходники\C# MVC\Методичка\2)ControllerExample\6)Authorize\bin\System.Web.Webpages.dll
+E:\исходники\C# MVC\Методичка\2)ControllerExample\6)Authorize\bin\System.Web.Webpages.Razor.dll
+E:\исходники\C# MVC\Методичка\2)ControllerExample\6)Authorize\bin\Microsoft.AI.DependencyCollector.xml
+E:\исходники\C# MVC\Методичка\2)ControllerExample\6)Authorize\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\исходники\C# MVC\Методичка\2)ControllerExample\6)Authorize\bin\Microsoft.AI.Web.xml
+E:\исходники\C# MVC\Методичка\2)ControllerExample\6)Authorize\bin\Microsoft.AI.WindowsServer.xml
+E:\исходники\C# MVC\Методичка\2)ControllerExample\6)Authorize\bin\Microsoft.ApplicationInsights.xml
+E:\исходники\C# MVC\Методичка\2)ControllerExample\6)Authorize\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\исходники\C# MVC\Методичка\2)ControllerExample\6)Authorize\bin\nunit.framework.pdb
+E:\исходники\C# MVC\Методичка\2)ControllerExample\6)Authorize\bin\nunit.framework.xml
+E:\исходники\C# MVC\Методичка\2)ControllerExample\6)Authorize\bin\System.Web.Razor.xml
+E:\исходники\C# MVC\Методичка\2)ControllerExample\6)Authorize\bin\System.Web.Webpages.xml
+E:\исходники\C# MVC\Методичка\2)ControllerExample\6)Authorize\bin\System.Web.Webpages.Deployment.xml
+E:\исходники\C# MVC\Методичка\2)ControllerExample\6)Authorize\bin\System.Web.Webpages.Razor.xml
+E:\исходники\C# MVC\Методичка\2)ControllerExample\6)Authorize\bin\System.Web.Helpers.xml
+E:\исходники\C# MVC\Методичка\2)ControllerExample\6)Authorize\bin\System.Web.Mvc.xml
+E:\исходники\C# MVC\Методичка\2)ControllerExample\6)Authorize\obj\Debug\06)Authorize.csprojResolveAssemblyReference.cache
+E:\исходники\C# MVC\Методичка\2)ControllerExample\6)Authorize\obj\Debug\6)Authorize.dll
+E:\исходники\C# MVC\Методичка\2)ControllerExample\6)Authorize\obj\Debug\6)Authorize.pdb
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\6)Authorize\bin\ApplicationInsights.config
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\6)Authorize\bin\roslyn\csc.exe
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\6)Authorize\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\6)Authorize\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\6)Authorize\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\6)Authorize\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\6)Authorize\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\6)Authorize\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\6)Authorize\bin\roslyn\System.Collections.Immutable.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\6)Authorize\bin\roslyn\System.Reflection.Metadata.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\6)Authorize\bin\roslyn\vbc.exe
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\6)Authorize\bin\roslyn\VBCSCompiler.exe
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\6)Authorize\bin\roslyn\VBCSCompiler.exe.config
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\6)Authorize\bin\6)Authorize.dll.config
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\6)Authorize\bin\6)Authorize.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\6)Authorize\bin\6)Authorize.pdb
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\6)Authorize\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\6)Authorize\bin\Microsoft.AI.DependencyCollector.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\6)Authorize\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\6)Authorize\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\6)Authorize\bin\Microsoft.AI.Web.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\6)Authorize\bin\Microsoft.AI.WindowsServer.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\6)Authorize\bin\Microsoft.ApplicationInsights.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\6)Authorize\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\6)Authorize\bin\Microsoft.Web.Infrastructure.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\6)Authorize\bin\nunit.framework.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\6)Authorize\bin\System.Web.Helpers.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\6)Authorize\bin\System.Web.Mvc.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\6)Authorize\bin\System.Web.Razor.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\6)Authorize\bin\System.Web.Webpages.Deployment.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\6)Authorize\bin\System.Web.Webpages.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\6)Authorize\bin\System.Web.Webpages.Razor.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\6)Authorize\bin\Microsoft.AI.DependencyCollector.xml
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\6)Authorize\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\6)Authorize\bin\Microsoft.AI.Web.xml
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\6)Authorize\bin\Microsoft.AI.WindowsServer.xml
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\6)Authorize\bin\Microsoft.ApplicationInsights.xml
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\6)Authorize\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\6)Authorize\bin\nunit.framework.pdb
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\6)Authorize\bin\nunit.framework.xml
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\6)Authorize\bin\System.Web.Razor.xml
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\6)Authorize\bin\System.Web.Webpages.xml
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\6)Authorize\bin\System.Web.Webpages.Deployment.xml
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\6)Authorize\bin\System.Web.Webpages.Razor.xml
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\6)Authorize\bin\System.Web.Helpers.xml
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\6)Authorize\bin\System.Web.Mvc.xml
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\6)Authorize\obj\Debug\06)Authorize.csprojResolveAssemblyReference.cache
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\6)Authorize\obj\Debug\06)Authorize.csproj.CoreCompileInputs.cache
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\6)Authorize\obj\Debug\6)Authorize.dll
+E:\Sources\C#\MVC\Book\Simple\2)ControllerExample\6)Authorize\obj\Debug\6)Authorize.pdb

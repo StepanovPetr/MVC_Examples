@@ -1,0 +1,412 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="MatlabModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="FFTValues">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="idWord" Type="int" Nullable="false" />
+          <Property Name="K_MIN" Type="float" />
+          <Property Name="K_MAX" Type="float" />
+          <Property Name="K_Round" Type="float" />
+          <Property Name="S_MIN" Type="float" />
+          <Property Name="S_MAX" Type="float" />
+          <Property Name="S_Round" Type="float" />
+          <Property Name="NF_MIN" Type="float" />
+          <Property Name="NF_MAX" Type="float" />
+          <Property Name="NF_Round" Type="float" />
+        </EntityType>
+        <EntityType Name="TimeValues">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="idWord" Type="int" Nullable="false" />
+          <Property Name="K_MIN" Type="float" />
+          <Property Name="K_MAX" Type="float" />
+          <Property Name="K_Round" Type="float" />
+          <Property Name="S_MIN" Type="float" />
+          <Property Name="S_MAX" Type="float" />
+          <Property Name="S_Round" Type="float" />
+          <Property Name="NF_MIN" Type="float" />
+          <Property Name="NF_MAX" Type="float" />
+          <Property Name="NF_Round" Type="float" />
+          <Property Name="Lenght_MIN" Type="float" />
+          <Property Name="Lenght_MAX" Type="float" />
+          <Property Name="Lenght_Round" Type="float" />
+        </EntityType>
+        <EntityType Name="Words">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="Ru" Type="nvarchar" MaxLength="256" Nullable="false" />
+          <Property Name="Eng" Type="nvarchar" MaxLength="256" Nullable="false" />
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_FFTValues_Words">
+          <End Role="Words" Type="Self.Words" Multiplicity="1" />
+          <End Role="FFTValues" Type="Self.FFTValues" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Words">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="FFTValues">
+              <PropertyRef Name="idWord" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TimeValues_TimeValues">
+          <End Role="Words" Type="Self.Words" Multiplicity="1" />
+          <End Role="TimeValues" Type="Self.TimeValues" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Words">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="TimeValues">
+              <PropertyRef Name="idWord" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Function Name="SelectFFTValue" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="S" Type="float" Mode="In" />
+          <Parameter Name="K" Type="float" Mode="In" />
+          <Parameter Name="NF" Type="float" Mode="In" />
+          <Parameter Name="TimeValue" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="SelectTimeValue" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="S" Type="float" Mode="In" />
+          <Parameter Name="K" Type="float" Mode="In" />
+          <Parameter Name="NF" Type="float" Mode="In" />
+          <Parameter Name="Lenght" Type="float" Mode="In" />
+        </Function>
+        <Function Name="UpdateFFTValue" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Ru" Type="nvarchar" Mode="In" />
+          <Parameter Name="Smin" Type="float" Mode="In" />
+          <Parameter Name="Smax" Type="float" Mode="In" />
+          <Parameter Name="Sround" Type="float" Mode="In" />
+          <Parameter Name="Kmin" Type="float" Mode="In" />
+          <Parameter Name="Kmax" Type="float" Mode="In" />
+          <Parameter Name="Kround" Type="float" Mode="In" />
+          <Parameter Name="NFmin" Type="float" Mode="In" />
+          <Parameter Name="NFmax" Type="float" Mode="In" />
+          <Parameter Name="NFround" Type="float" Mode="In" />
+        </Function>
+        <Function Name="UpdateTimeValue" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Ru" Type="nvarchar" Mode="In" />
+          <Parameter Name="Smin" Type="float" Mode="In" />
+          <Parameter Name="Smax" Type="float" Mode="In" />
+          <Parameter Name="Sround" Type="float" Mode="In" />
+          <Parameter Name="Kmin" Type="float" Mode="In" />
+          <Parameter Name="Kmax" Type="float" Mode="In" />
+          <Parameter Name="Kround" Type="float" Mode="In" />
+          <Parameter Name="NFmin" Type="float" Mode="In" />
+          <Parameter Name="NFmax" Type="float" Mode="In" />
+          <Parameter Name="NFround" Type="float" Mode="In" />
+          <Parameter Name="Timemin" Type="float" Mode="In" />
+          <Parameter Name="Timemax" Type="float" Mode="In" />
+          <Parameter Name="Timeround" Type="float" Mode="In" />
+        </Function>
+        <EntityContainer Name="MatlabModelStoreContainer">
+          <EntitySet Name="FFTValues" EntityType="Self.FFTValues" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TimeValues" EntityType="Self.TimeValues" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Words" EntityType="Self.Words" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_FFTValues_Words" Association="Self.FK_FFTValues_Words">
+            <End Role="Words" EntitySet="Words" />
+            <End Role="FFTValues" EntitySet="FFTValues" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TimeValues_TimeValues" Association="Self.FK_TimeValues_TimeValues">
+            <End Role="Words" EntitySet="Words" />
+            <End Role="TimeValues" EntitySet="TimeValues" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="MatlabModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="FFTValues">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="idWord" Type="Int32" Nullable="false" />
+          <Property Name="K_MIN" Type="Double" />
+          <Property Name="K_MAX" Type="Double" />
+          <Property Name="K_Round" Type="Double" />
+          <Property Name="S_MIN" Type="Double" />
+          <Property Name="S_MAX" Type="Double" />
+          <Property Name="S_Round" Type="Double" />
+          <Property Name="NF_MIN" Type="Double" />
+          <Property Name="NF_MAX" Type="Double" />
+          <Property Name="NF_Round" Type="Double" />
+          <NavigationProperty Name="Words" Relationship="Self.FK_FFTValues_Words" FromRole="FFTValues" ToRole="Words" />
+        </EntityType>
+        <EntityType Name="TimeValues">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="idWord" Type="Int32" Nullable="false" />
+          <Property Name="K_MIN" Type="Double" />
+          <Property Name="K_MAX" Type="Double" />
+          <Property Name="K_Round" Type="Double" />
+          <Property Name="S_MIN" Type="Double" />
+          <Property Name="S_MAX" Type="Double" />
+          <Property Name="S_Round" Type="Double" />
+          <Property Name="NF_MIN" Type="Double" />
+          <Property Name="NF_MAX" Type="Double" />
+          <Property Name="NF_Round" Type="Double" />
+          <Property Name="Lenght_MIN" Type="Double" />
+          <Property Name="Lenght_MAX" Type="Double" />
+          <Property Name="Lenght_Round" Type="Double" />
+          <NavigationProperty Name="Words" Relationship="Self.FK_TimeValues_TimeValues" FromRole="TimeValues" ToRole="Words" />
+        </EntityType>
+        <EntityType Name="Words">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="Ru" Type="String" MaxLength="256" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Eng" Type="String" MaxLength="256" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <NavigationProperty Name="FFTValues" Relationship="Self.FK_FFTValues_Words" FromRole="Words" ToRole="FFTValues" />
+          <NavigationProperty Name="TimeValues" Relationship="Self.FK_TimeValues_TimeValues" FromRole="Words" ToRole="TimeValues" />
+        </EntityType>
+        <Association Name="FK_FFTValues_Words">
+          <End Role="Words" Type="Self.Words" Multiplicity="1" />
+          <End Role="FFTValues" Type="Self.FFTValues" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Words">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="FFTValues">
+              <PropertyRef Name="idWord" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TimeValues_TimeValues">
+          <End Role="Words" Type="Self.Words" Multiplicity="1" />
+          <End Role="TimeValues" Type="Self.TimeValues" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Words">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="TimeValues">
+              <PropertyRef Name="idWord" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="MatlabEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="FFTValues" EntityType="Self.FFTValues" />
+          <EntitySet Name="TimeValues" EntityType="Self.TimeValues" />
+          <EntitySet Name="Words" EntityType="Self.Words" />
+          <AssociationSet Name="FK_FFTValues_Words" Association="Self.FK_FFTValues_Words">
+            <End Role="Words" EntitySet="Words" />
+            <End Role="FFTValues" EntitySet="FFTValues" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TimeValues_TimeValues" Association="Self.FK_TimeValues_TimeValues">
+            <End Role="Words" EntitySet="Words" />
+            <End Role="TimeValues" EntitySet="TimeValues" />
+          </AssociationSet>
+          <FunctionImport Name="SelectFFTValue" ReturnType="Collection(MatlabModel.SelectFFTValue_Result)">
+            <Parameter Name="S" Mode="In" Type="Double" />
+            <Parameter Name="K" Mode="In" Type="Double" />
+            <Parameter Name="NF" Mode="In" Type="Double" />
+            <Parameter Name="TimeValue" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="SelectTimeValue" ReturnType="Collection(MatlabModel.SelectTimeValue_Result)">
+            <Parameter Name="S" Mode="In" Type="Double" />
+            <Parameter Name="K" Mode="In" Type="Double" />
+            <Parameter Name="NF" Mode="In" Type="Double" />
+            <Parameter Name="Lenght" Mode="In" Type="Double" />
+          </FunctionImport>
+          <FunctionImport Name="UpdateFFTValue" ReturnType="Collection(String)">
+            <Parameter Name="Ru" Mode="In" Type="String" />
+            <Parameter Name="Smin" Mode="In" Type="Double" />
+            <Parameter Name="Smax" Mode="In" Type="Double" />
+            <Parameter Name="Sround" Mode="In" Type="Double" />
+            <Parameter Name="Kmin" Mode="In" Type="Double" />
+            <Parameter Name="Kmax" Mode="In" Type="Double" />
+            <Parameter Name="Kround" Mode="In" Type="Double" />
+            <Parameter Name="NFmin" Mode="In" Type="Double" />
+            <Parameter Name="NFmax" Mode="In" Type="Double" />
+            <Parameter Name="NFround" Mode="In" Type="Double" />
+          </FunctionImport>
+          <FunctionImport Name="UpdateTimeValue" ReturnType="Collection(String)">
+            <Parameter Name="Ru" Mode="In" Type="String" />
+            <Parameter Name="Smin" Mode="In" Type="Double" />
+            <Parameter Name="Smax" Mode="In" Type="Double" />
+            <Parameter Name="Sround" Mode="In" Type="Double" />
+            <Parameter Name="Kmin" Mode="In" Type="Double" />
+            <Parameter Name="Kmax" Mode="In" Type="Double" />
+            <Parameter Name="Kround" Mode="In" Type="Double" />
+            <Parameter Name="NFmin" Mode="In" Type="Double" />
+            <Parameter Name="NFmax" Mode="In" Type="Double" />
+            <Parameter Name="NFround" Mode="In" Type="Double" />
+            <Parameter Name="Timemin" Mode="In" Type="Double" />
+            <Parameter Name="Timemax" Mode="In" Type="Double" />
+            <Parameter Name="Timeround" Mode="In" Type="Double" />
+          </FunctionImport>
+        </EntityContainer>
+        <ComplexType Name="SelectFFTValue_Result">
+          <Property Type="String" Name="Ru" Nullable="false" MaxLength="256" />
+          <Property Type="String" Name="Eng" Nullable="false" MaxLength="256" />
+          <Property Type="Int32" Name="id" Nullable="false" />
+          <Property Type="Int32" Name="id1" Nullable="true" />
+          <Property Type="Int32" Name="idWord" Nullable="true" />
+          <Property Type="Double" Name="K_MIN" Nullable="true" />
+          <Property Type="Double" Name="K_MAX" Nullable="true" />
+          <Property Type="Double" Name="K_Round" Nullable="true" />
+          <Property Type="Double" Name="S_MIN" Nullable="true" />
+          <Property Type="Double" Name="S_MAX" Nullable="true" />
+          <Property Type="Double" Name="S_Round" Nullable="true" />
+          <Property Type="Double" Name="NF_MIN" Nullable="true" />
+          <Property Type="Double" Name="NF_MAX" Nullable="true" />
+          <Property Type="Double" Name="NF_Round" Nullable="true" />
+          <Property Type="String" Name="value" Nullable="true" MaxLength="200" />
+        </ComplexType>
+        <ComplexType Name="SelectTimeValue_Result">
+          <Property Type="String" Name="Ru" Nullable="false" MaxLength="256" />
+          <Property Type="String" Name="Eng" Nullable="false" MaxLength="256" />
+          <Property Type="Int32" Name="id" Nullable="false" />
+          <Property Type="Int32" Name="id1" Nullable="true" />
+          <Property Type="Int32" Name="idWord" Nullable="true" />
+          <Property Type="Double" Name="K_MIN" Nullable="true" />
+          <Property Type="Double" Name="K_MAX" Nullable="true" />
+          <Property Type="Double" Name="K_Round" Nullable="true" />
+          <Property Type="Double" Name="S_MIN" Nullable="true" />
+          <Property Type="Double" Name="S_MAX" Nullable="true" />
+          <Property Type="Double" Name="S_Round" Nullable="true" />
+          <Property Type="Double" Name="NF_MIN" Nullable="true" />
+          <Property Type="Double" Name="NF_MAX" Nullable="true" />
+          <Property Type="Double" Name="NF_Round" Nullable="true" />
+          <Property Type="Double" Name="Lenght_MIN" Nullable="true" />
+          <Property Type="Double" Name="Lenght_MAX" Nullable="true" />
+          <Property Type="Double" Name="Lenght_Round" Nullable="true" />
+        </ComplexType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="MatlabModelStoreContainer" CdmEntityContainer="MatlabEntities">
+          <EntitySetMapping Name="FFTValues">
+            <EntityTypeMapping TypeName="MatlabModel.FFTValues">
+              <MappingFragment StoreEntitySet="FFTValues">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="idWord" ColumnName="idWord" />
+                <ScalarProperty Name="K_MIN" ColumnName="K_MIN" />
+                <ScalarProperty Name="K_MAX" ColumnName="K_MAX" />
+                <ScalarProperty Name="K_Round" ColumnName="K_Round" />
+                <ScalarProperty Name="S_MIN" ColumnName="S_MIN" />
+                <ScalarProperty Name="S_MAX" ColumnName="S_MAX" />
+                <ScalarProperty Name="S_Round" ColumnName="S_Round" />
+                <ScalarProperty Name="NF_MIN" ColumnName="NF_MIN" />
+                <ScalarProperty Name="NF_MAX" ColumnName="NF_MAX" />
+                <ScalarProperty Name="NF_Round" ColumnName="NF_Round" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TimeValues">
+            <EntityTypeMapping TypeName="MatlabModel.TimeValues">
+              <MappingFragment StoreEntitySet="TimeValues">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="idWord" ColumnName="idWord" />
+                <ScalarProperty Name="K_MIN" ColumnName="K_MIN" />
+                <ScalarProperty Name="K_MAX" ColumnName="K_MAX" />
+                <ScalarProperty Name="K_Round" ColumnName="K_Round" />
+                <ScalarProperty Name="S_MIN" ColumnName="S_MIN" />
+                <ScalarProperty Name="S_MAX" ColumnName="S_MAX" />
+                <ScalarProperty Name="S_Round" ColumnName="S_Round" />
+                <ScalarProperty Name="NF_MIN" ColumnName="NF_MIN" />
+                <ScalarProperty Name="NF_MAX" ColumnName="NF_MAX" />
+                <ScalarProperty Name="NF_Round" ColumnName="NF_Round" />
+                <ScalarProperty Name="Lenght_MIN" ColumnName="Lenght_MIN" />
+                <ScalarProperty Name="Lenght_MAX" ColumnName="Lenght_MAX" />
+                <ScalarProperty Name="Lenght_Round" ColumnName="Lenght_Round" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Words">
+            <EntityTypeMapping TypeName="MatlabModel.Words">
+              <MappingFragment StoreEntitySet="Words">
+                <ScalarProperty Name="Ru" ColumnName="Ru" />
+                <ScalarProperty Name="Eng" ColumnName="Eng" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="SelectFFTValue" FunctionName="MatlabModel.Store.SelectFFTValue">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="MatlabModel.SelectFFTValue_Result">
+                <ScalarProperty Name="Ru" ColumnName="Ru" />
+                <ScalarProperty Name="Eng" ColumnName="Eng" />
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="id1" ColumnName="id1" />
+                <ScalarProperty Name="idWord" ColumnName="idWord" />
+                <ScalarProperty Name="K_MIN" ColumnName="K_MIN" />
+                <ScalarProperty Name="K_MAX" ColumnName="K_MAX" />
+                <ScalarProperty Name="K_Round" ColumnName="K_Round" />
+                <ScalarProperty Name="S_MIN" ColumnName="S_MIN" />
+                <ScalarProperty Name="S_MAX" ColumnName="S_MAX" />
+                <ScalarProperty Name="S_Round" ColumnName="S_Round" />
+                <ScalarProperty Name="NF_MIN" ColumnName="NF_MIN" />
+                <ScalarProperty Name="NF_MAX" ColumnName="NF_MAX" />
+                <ScalarProperty Name="NF_Round" ColumnName="NF_Round" />
+                <ScalarProperty Name="value" ColumnName="value" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="SelectTimeValue" FunctionName="MatlabModel.Store.SelectTimeValue">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="MatlabModel.SelectTimeValue_Result">
+                <ScalarProperty Name="Ru" ColumnName="Ru" />
+                <ScalarProperty Name="Eng" ColumnName="Eng" />
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="id1" ColumnName="id1" />
+                <ScalarProperty Name="idWord" ColumnName="idWord" />
+                <ScalarProperty Name="K_MIN" ColumnName="K_MIN" />
+                <ScalarProperty Name="K_MAX" ColumnName="K_MAX" />
+                <ScalarProperty Name="K_Round" ColumnName="K_Round" />
+                <ScalarProperty Name="S_MIN" ColumnName="S_MIN" />
+                <ScalarProperty Name="S_MAX" ColumnName="S_MAX" />
+                <ScalarProperty Name="S_Round" ColumnName="S_Round" />
+                <ScalarProperty Name="NF_MIN" ColumnName="NF_MIN" />
+                <ScalarProperty Name="NF_MAX" ColumnName="NF_MAX" />
+                <ScalarProperty Name="NF_Round" ColumnName="NF_Round" />
+                <ScalarProperty Name="Lenght_MIN" ColumnName="Lenght_MIN" />
+                <ScalarProperty Name="Lenght_MAX" ColumnName="Lenght_MAX" />
+                <ScalarProperty Name="Lenght_Round" ColumnName="Lenght_Round" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="UpdateFFTValue" FunctionName="MatlabModel.Store.UpdateFFTValue" />
+          <FunctionImportMapping FunctionImportName="UpdateTimeValue" FunctionName="MatlabModel.Store.UpdateTimeValue" />
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,14 @@
+E:\исходники\C# MVC\Методичка\4)ModelExample\Services_2\bin\Release\Services_2.dll.config
+E:\исходники\C# MVC\Методичка\4)ModelExample\Services_2\bin\Release\Services_2.dll
+E:\исходники\C# MVC\Методичка\4)ModelExample\Services_2\bin\Release\Services_2.pdb
+E:\исходники\C# MVC\Методичка\4)ModelExample\Services_2\bin\Release\EntityFramework.dll
+E:\исходники\C# MVC\Методичка\4)ModelExample\Services_2\bin\Release\EntityFramework.SqlServer.dll
+E:\исходники\C# MVC\Методичка\4)ModelExample\Services_2\bin\Release\Model_2.dll
+E:\исходники\C# MVC\Методичка\4)ModelExample\Services_2\bin\Release\MyContext.dll
+E:\исходники\C# MVC\Методичка\4)ModelExample\Services_2\bin\Release\Model_2.pdb
+E:\исходники\C# MVC\Методичка\4)ModelExample\Services_2\bin\Release\MyContext.pdb
+E:\исходники\C# MVC\Методичка\4)ModelExample\Services_2\bin\Release\EntityFramework.xml
+E:\исходники\C# MVC\Методичка\4)ModelExample\Services_2\bin\Release\EntityFramework.SqlServer.xml
+E:\исходники\C# MVC\Методичка\4)ModelExample\Services_2\obj\Release\Services_2.csprojResolveAssemblyReference.cache
+E:\исходники\C# MVC\Методичка\4)ModelExample\Services_2\obj\Release\Services_2.dll
+E:\исходники\C# MVC\Методичка\4)ModelExample\Services_2\obj\Release\Services_2.pdb
