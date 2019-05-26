@@ -33,5 +33,8 @@ namespace NUnitTestsExampleRedirectController
             string controller = actionResult.RouteValues["controller"].ToString();
             Assert.IsTrue(action.Contains("Method1") && controller.Contains("Simple"));
         }
+
+
+
     }
 }

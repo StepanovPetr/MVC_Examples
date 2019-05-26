@@ -17,7 +17,6 @@ namespace _5_UserIdentity.Controllers
             //Проверка на то что пользователь прошел Аутеннтификацию
             if (isAuthenticated)
             {
-
                 //Получени имени пользователя от которого пришел запрос 
                 string userName = User.Identity.Name;
                 //Получени типа  AuthenticationType

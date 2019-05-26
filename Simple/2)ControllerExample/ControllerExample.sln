@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTestsControllerExample
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTestsExampleRedirectController", "NUnitTestsExampleRedirectController\NUnitTestsExampleRedirectController.csproj", "{8D6BCC4F-64B2-4503-A193-6746D4D74636}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTestsFileExampleController", "NUnitTestsFileExampleController\NUnitTestsFileExampleController.csproj", "{E645D395-BB77-41BD-9868-2FECD9552363}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -249,6 +251,22 @@ Global
 		{8D6BCC4F-64B2-4503-A193-6746D4D74636}.Release|x64.Build.0 = Release|Any CPU
 		{8D6BCC4F-64B2-4503-A193-6746D4D74636}.Release|x86.ActiveCfg = Release|Any CPU
 		{8D6BCC4F-64B2-4503-A193-6746D4D74636}.Release|x86.Build.0 = Release|Any CPU
+		{E645D395-BB77-41BD-9868-2FECD9552363}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E645D395-BB77-41BD-9868-2FECD9552363}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E645D395-BB77-41BD-9868-2FECD9552363}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{E645D395-BB77-41BD-9868-2FECD9552363}.Debug|ARM.Build.0 = Debug|Any CPU
+		{E645D395-BB77-41BD-9868-2FECD9552363}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E645D395-BB77-41BD-9868-2FECD9552363}.Debug|x64.Build.0 = Debug|Any CPU
+		{E645D395-BB77-41BD-9868-2FECD9552363}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E645D395-BB77-41BD-9868-2FECD9552363}.Debug|x86.Build.0 = Debug|Any CPU
+		{E645D395-BB77-41BD-9868-2FECD9552363}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E645D395-BB77-41BD-9868-2FECD9552363}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E645D395-BB77-41BD-9868-2FECD9552363}.Release|ARM.ActiveCfg = Release|Any CPU
+		{E645D395-BB77-41BD-9868-2FECD9552363}.Release|ARM.Build.0 = Release|Any CPU
+		{E645D395-BB77-41BD-9868-2FECD9552363}.Release|x64.ActiveCfg = Release|Any CPU
+		{E645D395-BB77-41BD-9868-2FECD9552363}.Release|x64.Build.0 = Release|Any CPU
+		{E645D395-BB77-41BD-9868-2FECD9552363}.Release|x86.ActiveCfg = Release|Any CPU
+		{E645D395-BB77-41BD-9868-2FECD9552363}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
