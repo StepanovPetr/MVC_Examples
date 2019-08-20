@@ -12,7 +12,7 @@ namespace Model_2
     [Serializable]
     public class Album
     {
-        public int ID { get; set; }
+        public int Id { get; set; }
         //Название Альбома
         public string Name { get; set; }
         //Дата создания 
@@ -26,9 +26,7 @@ namespace Model_2
             this.YearOfBirth = DateTime.Today;
        
         }
-
         [Required]
         public virtual Band Band { get; set; }
-
     }
 }

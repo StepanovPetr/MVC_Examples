@@ -17,10 +17,7 @@ namespace Services_1
         public List<Band> SelectAll()
         {
             return Groups;
-
         }
-
-
 
         public bool EditElem(Band band)
         {
@@ -42,8 +39,7 @@ namespace Services_1
 
         public Band FindElem(string Name)
         {
-          return   Groups.FirstOrDefault(s => s.Name == Name);
-
+            return Groups.FirstOrDefault(s => s.Name == Name);
         }
 
         public bool DeleteElem(string Name)
@@ -51,37 +47,29 @@ namespace Services_1
             Groups.RemoveAll(s => s.Name == Name);
             Serialize();
             return true;
-
         }
-
 
         public bool Serialize()
         {
-            BinaryFormatter binary = new BinaryFormatter();
-          
+            BinaryFormatter binary = new BinaryFormatter();          
             FileStream buffer = File.Create(Path);
             binary.Serialize(buffer, Groups);
             buffer.Close();
-
 
             return true;
         }
 
         public List<Band> Deserialize()
         {
-            BinaryFormatter binary = new BinaryFormatter();
-          
+            BinaryFormatter binary = new BinaryFormatter();         
             using (FileStream buffer = File.OpenRead(Path))
             {
              return    binary.Deserialize(buffer) as List<Band>;
-            }
-           
+            }          
         }
-
 
         public DBServices(string path)
         {
-
             this.Path = path;
             Groups = new List<Band>();           
             if (!File.Exists(Path))
@@ -178,16 +166,12 @@ namespace Services_1
                 Groups.Add(Brutto);
                 Groups.Add(Kukukryniksy);
                 #endregion
-
                 this.Serialize();
-
             }
             else
             {
                 Groups = this.Deserialize();
             }
         }
-
-
     }
 }

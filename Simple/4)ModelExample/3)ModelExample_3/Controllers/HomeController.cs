@@ -45,12 +45,9 @@ namespace _3_ModelExample_3.Controllers
                 {
                     return View("Index", db.SelectAll());
                 }
-
-
             }
             return View(band);
         }
-
 
         public ActionResult Delete(int id)
         {
@@ -83,6 +80,5 @@ namespace _3_ModelExample_3.Controllers
             }
             return View(band);
         }
-
     }
 }

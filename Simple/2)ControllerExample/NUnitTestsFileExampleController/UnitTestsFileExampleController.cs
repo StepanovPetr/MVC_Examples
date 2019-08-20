@@ -11,7 +11,7 @@ namespace NUnitTestsFileExampleController
         {
             FileExampleController fileExampleController = new FileExampleController();
             FilePathResult actionResult  = (FilePathResult)fileExampleController.Download1();
-            Assert.IsTrue(actionResult.FileName.Contains(@"/Download/1.mp3"));
+            Assert.IsTrue(actionResult.FileName.Contains(@"/Download/165.mp3"));
         }
 
         [Test]

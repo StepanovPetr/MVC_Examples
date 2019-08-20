@@ -3,8 +3,7 @@
 namespace ControllerExample.Controllers
 {
     public class MyFirstController : Controller
-    {
-      
+    {  
         // По умолчанию методы вызываются по GET запросу
         public string Index()
         {
@@ -30,8 +29,7 @@ namespace ControllerExample.Controllers
         public string Method3()
         {
             return "Method3";
-        }
-  
+        } 
     }
 }
 

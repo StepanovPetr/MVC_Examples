@@ -7,12 +7,11 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Model_2
 {
-
     //Класс Музыкант
     [Serializable]
     public class Musician
     {
-        public int ID { get; set; }
+        public int Id { get; set; }
         // Имя Музыканта 
         public string Name { get; set; }
         // Инструмент на котором играет музыкант
@@ -29,6 +28,6 @@ namespace Model_2
         }
         [Required]
         public virtual Band Band { get; set; }
-
     }
 }
+

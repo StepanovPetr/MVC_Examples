@@ -26,18 +26,13 @@ namespace _10_Session.Controllers
         // Пример получения заначений из сессии
         public string Method2()
         {
-
             if (Session["Key"] == null)
             {
                 return string.Format("Value of  Key Empy");
             }
 
             string sesionValue = Session["Key"].ToString() ;          
-            return string.Format("Value of  Key {0}", sesionValue);
-            
-           
+            return string.Format("Value of  Key {0}", sesionValue);                  
         }
-
-
     }
 }

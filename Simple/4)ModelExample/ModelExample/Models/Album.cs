@@ -20,8 +20,5 @@ namespace ModelExample.Models
             this.YearOfBirth = DateTime.Today;
        
         }
-
-
-
     }
 }

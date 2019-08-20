@@ -7,7 +7,6 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Model_1
 {
-
     //Класс Музыкант
     [Serializable]
     public class Musician
@@ -26,6 +25,5 @@ namespace Model_1
             this.YearOfBirth = DateTime.Today;
             this.MusicalInstrument = "guitar";
         }
-
     }
 }

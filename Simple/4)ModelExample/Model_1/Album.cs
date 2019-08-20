@@ -7,7 +7,6 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Model_1
 {
-
     //Класс Альбом
     [Serializable]
     public class Album
@@ -22,10 +21,7 @@ namespace Model_1
         {
             this.Name = "";
             this.YearOfBirth = DateTime.Today;
-       
         }
-
-
-
     }
 }
+

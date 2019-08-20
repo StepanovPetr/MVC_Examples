@@ -24,8 +24,6 @@ namespace ModelExample.Models
         // Открытый конструктор класса Группа
         public Band()
         {
-
         }
-
     }
 }
