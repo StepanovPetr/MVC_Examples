@@ -4,7 +4,7 @@ namespace ControllerExample.Controllers
 {
     public class MyFirstController : Controller
     {  
-        // По умолчанию методы вызываются по GET запросу
+        // Метод доступен по любому HTTP глаголу
         public string Index()
         {
             return "Hello World";
@@ -24,7 +24,7 @@ namespace ControllerExample.Controllers
             return "Method2";
         }
 
-        // нужно выполнить POST запрос
+        // Нужно выполнить POST запрос
         [HttpPost]
         public string Method3()
         {
