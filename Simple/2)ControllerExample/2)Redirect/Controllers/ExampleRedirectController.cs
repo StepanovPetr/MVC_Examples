@@ -16,16 +16,20 @@ namespace Redirect.Controllers
             return Redirect("http://www.google.ru");
         }
 
-        // Пример с перенаправлением на дугой Action в рамках одного Controller
+        // Пример с перенаправлением на другой 
+        // Action в рамках одного Controller.
         public ActionResult Redirec2()
         {
             return RedirectToAction("Index");
         }
 
-        // Пример с перенаправлением на дугой Action и другой  Controller
+        // Пример с перенаправлением на другой 
+        // Action и другой  Controller.
         public ActionResult Redirec3()
         {
-            return RedirectToAction("Method1", "Simple");
+            return RedirectToAction(
+                "Method1", 
+                "Simple");
         }       
     }
 }

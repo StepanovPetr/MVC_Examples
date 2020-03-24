@@ -10,14 +10,14 @@ namespace _5_UserIdentity.Controllers
     {      
         public string Index()
         {
-            //Получение занчения об аутеннтификации пользователя 
+            // Получение значения об аутентификации пользователя. 
             bool isAuthenticated = User.Identity.IsAuthenticated;
-            //Проверка на то, что пользователь прошел аутеннтификацию
+            // Проверка на то, что пользователь прошел аутеннтификацию.
             if (isAuthenticated)
             {
-                //Получение имени пользователя от которого пришел запрос 
+                // Получение имени пользователя от которого пришел запрос. 
                 string userName = User.Identity.Name;
-                //Получение типа  AuthenticationType
+                // Получение типа  AuthenticationType.
                 string authenticationType = User.Identity.AuthenticationType; 
 
                 return string.Format("Имя пользователя - {0}, тип Аутентификации {1}",
@@ -30,4 +30,3 @@ namespace _5_UserIdentity.Controllers
         }      
     }
 }
-

@@ -8,7 +8,7 @@ namespace _4_HttpStatusCodeResult.Controllers
 {
     public class HttpStatusCodeController : Controller
     {
-        // GET: HttpStatusCode
+        // GET: HttpStatusCode.
         public ActionResult Index()
         {
             return View();
@@ -16,13 +16,13 @@ namespace _4_HttpStatusCodeResult.Controllers
 
         public ActionResult Method1()
         {
-            // вывод 404 ошибки NotFound
+            // вывод 404 ошибки NotFound.
             return HttpNotFound();
         }
 
         public ActionResult Method2()
         {
-            // вывод 500 
+            // вывод 500. 
             return new HttpStatusCodeResult(500, "Internal Server Error");
         }
          

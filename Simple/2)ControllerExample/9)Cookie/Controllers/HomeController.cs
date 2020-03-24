@@ -13,7 +13,8 @@ namespace _9_Cookie.Controllers
         {
             return View();
         }
-        // Пример добавления cookie
+
+        // Пример добавления cookie.
         public string Method1()
         {
             HttpCookie cookie = new HttpCookie("Key", "Hello word");
@@ -22,7 +23,8 @@ namespace _9_Cookie.Controllers
        
             return string.Format("Cookie Key ADD to  Response");
         }
-        // Пример получения получения 
+
+        // Пример чтения записи cookie из запроса.
         public string Method2()
         {
             HttpCookie cookie = Request.Cookies["Key"];
@@ -35,12 +37,13 @@ namespace _9_Cookie.Controllers
                 return string.Format("Value of  Key Empy");
             }
         }
-        // Пример удаления cookie
+
+        // Пример удаления cookie.
         public string Method3()
         {
             HttpCookie cookie = new HttpCookie("Key", "Hello word");
 
-            // пример удаления Cookies
+            // пример удаления Cookies.
             cookie.Expires = DateTime.Now.AddDays(-1);
             // Добавление  куки с Именем Key и значение Hello word в текущий ответ.
             Response.Cookies.Add(cookie);
@@ -48,8 +51,5 @@ namespace _9_Cookie.Controllers
             return string.Format("Cookie Key Delete form  Response");
             
         }
-
-
-
     }
 }

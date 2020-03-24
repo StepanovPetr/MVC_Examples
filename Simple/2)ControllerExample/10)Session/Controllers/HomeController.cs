@@ -14,16 +14,17 @@ namespace _10_Session.Controllers
             return View();
         }
 
-        // Пример добавления значения в сессию
+        // Пример добавления значения в сессию.
         public string Method1()
         {
             // Запись значения в сессию.
             Session["Key"] = "Hello word";
-            // Задание строка жизнии занчения сессии по умолчанию  (20 мин)
+            // Задание строка жизнии занчения сессии по умолчанию  (20 мин).
             Session.Timeout = 10;
             return string.Format("Session Key ADD to  Response");
         }
-        // Пример получения заначений из сессии
+
+        // Пример получения заначений из сессии.
         public string Method2()
         {
             if (Session["Key"] == null)
