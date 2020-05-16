@@ -5,23 +5,22 @@ using System.Web;
 
 namespace ModelExample.Models
 {
-
-    // Класс Группа
+    // Класс Группа.
     public class Band
     {
-        //Название  Группы
+        // Название группы.
         public string Name { get; set; }
-        //Жанр в котором играет Группа
+        // Жанр в котором играет группа.
         public string Genre { get; set; }
-        //Родной город
+        // Родной город.
         public string City { get; set; }
-        //Дата создания Группы
+        // Дата создания группы.
         public DateTime YearOfBirth { get; set; }
-        //Коллекция обьктов класса Музыкант (Состав Группы)
+        // Коллекция объектов класса музыкант (Состав группы).
         public List<Musician> Musicants { get; set; }
-        //Коллекция обьктов класса Альбом (Выпущенные Альбомы )
+        // Коллекция объектов класса альбом (Выпущенные альбомы).
         public List<Album> Albums { get; set; }
-        // Открытый конструктор класса Группа
+        // Открытый конструктор класса группа.
         public Band()
         {
         }

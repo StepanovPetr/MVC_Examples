@@ -9,11 +9,6 @@ namespace _3_FileDownload.Controllers
 {
     public class FileExampleController : Controller
     {
-        public ActionResult Index()
-        {
-            return View();
-        }
-
         // Скачивание файла по пути. 
         public ActionResult Download1()
         {
@@ -35,10 +30,10 @@ namespace _3_FileDownload.Controllers
         // Создание файла из потока.
         public ActionResult Download3()
         {
-            // Переменная содержашая путь к файлу. 
+            // Переменная, содержащая путь к файлу. 
             string pathToOpen = Server.MapPath("/Download/1.mp3");
             // Создание потока streamForDownload
-            // и открытие файла /Download/1.mp3 на чтение. 
+            // и открытие файла /Download/1.mp3 для чтения. 
             FileStream streamForDownload = 
                 new FileStream(Server.MapPath("/Download/1.mp3"), 
                     FileMode.Open);

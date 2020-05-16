@@ -8,20 +8,14 @@ namespace _9_Cookie.Controllers
 {
     public class HomeController : Controller
     {
-        // GET: Home
-        public ActionResult Index()
-        {
-            return View();
-        }
-
         // Пример добавления cookie.
         public string Method1()
         {
             HttpCookie cookie = new HttpCookie("Key", "Hello word");
-            // Добавление  куки с Именем Key и значение Hello word в текущий ответ.
+            // Добавление cookie с именем Key и значением Hello word в текущий ответ.
             Response.Cookies.Add(cookie);
        
-            return string.Format("Cookie Key ADD to  Response");
+            return "Cookie Key add to Response";
         }
 
         // Пример чтения записи cookie из запроса.
@@ -30,11 +24,11 @@ namespace _9_Cookie.Controllers
             HttpCookie cookie = Request.Cookies["Key"];
             if (cookie != null)
             {
-                return string.Format("Value of  Key {0}",cookie.Value);
+                return $"Value of  Key {cookie.Value}";
             }
             else
             {
-                return string.Format("Value of  Key Empy");
+                return "Value of  Key Empy";
             }
         }
 
@@ -43,13 +37,12 @@ namespace _9_Cookie.Controllers
         {
             HttpCookie cookie = new HttpCookie("Key", "Hello word");
 
-            // пример удаления Cookies.
+            // Пример удаления сookie.
             cookie.Expires = DateTime.Now.AddDays(-1);
-            // Добавление  куки с Именем Key и значение Hello word в текущий ответ.
+            // Добавление  сookie с именем Key и значением Hello word в текущий ответ.
             Response.Cookies.Add(cookie);
 
-            return string.Format("Cookie Key Delete form  Response");
-            
+            return "Cookie Key Delete form  Response";
         }
     }
 }

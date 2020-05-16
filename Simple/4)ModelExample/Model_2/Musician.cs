@@ -1,33 +1,33 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
 namespace Model_2
 {
-    //Класс Музыкант
+    // Класс музыкант.
     [Serializable]
     public class Musician
     {
-        public int Id { get; set; }
-        // Имя Музыканта 
-        public string Name { get; set; }
-        // Инструмент на котором играет музыкант
-        public string MusicalInstrument { get; set; }
-        // Дата присоединения к группе
-        [DataType(DataType.Date)]
-        public DateTime YearOfBirth { get; set; }
-        // Открытый конструктор класса Музыкант
+        // Открытый конструктор класса музыкант.
         public Musician()
         {
-            this.Name = "";
-            this.YearOfBirth = DateTime.Today;
-            this.MusicalInstrument = "guitar";
+            Name = "";
+            YearOfBirth = DateTime.Today;
+            MusicalInstrument = "guitar";
         }
+
+        public int Id { get; set; }
+
+        // Имя музыканта. 
+        public string Name { get; set; }
+
+        // Инструмент, на котором играет музыкант.
+        public string MusicalInstrument { get; set; }
+
+        // Дата присоединения к группе.
+        [DataType(DataType.Date)] 
+        public DateTime YearOfBirth { get; set; }
+
         [Required]
         public virtual Band Band { get; set; }
     }
 }
-

@@ -3,3 +3,9 @@ E:\исходники\C# MVC\Методичка\4)ModelExample\Model_2\bin\Debug
 E:\исходники\C# MVC\Методичка\4)ModelExample\Model_2\obj\Debug\Model_2.dll
 E:\исходники\C# MVC\Методичка\4)ModelExample\Model_2\obj\Debug\Model_2.pdb
 E:\исходники\C# MVC\Методичка\4)ModelExample\Model_2\obj\Debug\Model_2.csprojResolveAssemblyReference.cache
+E:\Sources\C#\MVC_Examples\Simple\4)ModelExample\Model_2\bin\Debug\Model_2.dll
+E:\Sources\C#\MVC_Examples\Simple\4)ModelExample\Model_2\bin\Debug\Model_2.pdb
+E:\Sources\C#\MVC_Examples\Simple\4)ModelExample\Model_2\obj\Debug\Model_2.csprojAssemblyReference.cache
+E:\Sources\C#\MVC_Examples\Simple\4)ModelExample\Model_2\obj\Debug\Model_2.csproj.CoreCompileInputs.cache
+E:\Sources\C#\MVC_Examples\Simple\4)ModelExample\Model_2\obj\Debug\Model_2.dll
+E:\Sources\C#\MVC_Examples\Simple\4)ModelExample\Model_2\obj\Debug\Model_2.pdb

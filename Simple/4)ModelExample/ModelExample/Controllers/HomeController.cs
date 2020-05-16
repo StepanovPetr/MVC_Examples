@@ -4,14 +4,13 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-//Подлючение пространства имен содержащего классы модели 
+// Подлючение пространства имен, содержащего классы модели. 
 using ModelExample.Models;
 
 namespace ModelExample.Controllers
 {
     public class HomeController : Controller
     {
-        // GET: Home
         public ActionResult Index()
         {
 
@@ -40,7 +39,7 @@ namespace ModelExample.Controllers
 
             };
             #endregion
-            //Передача данных в модель 
+            // Передача данных в модель.
             return View(Elisium);
         }
     }

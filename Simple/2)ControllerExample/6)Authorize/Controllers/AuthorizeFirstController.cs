@@ -8,20 +8,15 @@ namespace _6_Authorize.Controllers
 {
     public class AuthorizeFirstController : Controller
     {
-        public ActionResult Index()
-        {
-            return View();
-        }
-
         [Authorize] 
         public string Authorize1()
         {
-            //Получени имени пользователя от которого пришел запрос 
+            //Получение имени пользователя, от которого пришел запрос 
             string userName = User.Identity.Name;
-            //Получени типа  AuthenticationType
+            //Получение типа  AuthenticationType
             string authenticationType = User.Identity.AuthenticationType;
-            return string.Format("Имя пользователя - {0}, тип Аутентификации {1}", 
-                userName, authenticationType);
+            return $"Имя пользователя - {userName}, " +
+                   $"тип Аутентификации {authenticationType}";
         }
     }
 }

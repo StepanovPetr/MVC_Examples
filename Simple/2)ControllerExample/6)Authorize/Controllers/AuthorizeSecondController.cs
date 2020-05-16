@@ -10,31 +10,25 @@ namespace _6_Authorize.Controllers
     [Authorize]
     public class AuthorizeSecondController : Controller
     {
-        // GET: AuthorizeSecond
-        public ActionResult Index()
-        {
-            return View();
-        }
-
         [AllowAnonymous]
         public string Authorize1()
         {
-            //Получени занчения об Аутеннтификации пользователя 
+            // Получение значения аутеннтификации пользователя. 
             bool isAuthenticated = User.Identity.IsAuthenticated;
-            //Проверка на то что пользователь прошел Аутеннтификацию
+            // Проверка на то, что пользователь прошел Аутентификацию.
             if (isAuthenticated)
             {
-                //Получени имени пользователя от которого пришел запрос 
+                // Получение имени пользователя, от которого пришел запрос. 
                 string userName = User.Identity.Name;
-                //Получени типа  AuthenticationType
+                // Получение типа AuthenticationType.
                 string authenticationType = User.Identity.AuthenticationType;
 
-                return string.Format("Имя пользователя - {0}, тип Аутентификации {1}",
-                    userName, authenticationType);
+                return $"Имя пользователя - {userName}," +
+                       $" тип аутентификации {authenticationType}";
             }
             else
             {
-                return string.Format("Пользователь Анонимен");
+                return "Пользователь анонимен";
             }
         }
     }

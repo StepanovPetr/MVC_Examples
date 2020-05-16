@@ -8,31 +8,17 @@ namespace _7_Request.Controllers
 {
     public class HomeController : Controller
     {
-        // GET: Home
-        public ActionResult Index()
-        {
-            return View();
-        }
-
-
-        
         public string Request1()
         {
-           
-            string Data = Request.QueryString["Data"];
-            return string.Format("Получение данных из адрессной строки -{0}",Data);
+            string data = Request.QueryString["Data"];
+            return $"Получение данных из адресной строки -{data}";
         }
 
         public string Request2()
         {
-           
-            string Data = Request.Form["Data"];           
-            return string.Format("Получение данных  из тела запроса -{0}", Data);
-
+            string data = Request.Form["Data"];           
+            return $"Получение данных из тела запроса -{data}";
         }
-
-        //
-        // GET: /Data/RouteInformation/
 
         public ActionResult RouteInformation()
         {
@@ -41,16 +27,11 @@ namespace _7_Request.Controllers
             return View("Index");
         }
 
-        //
-        // GET: /Data/QueryInformation/
-
         public ActionResult QueryInformation()
         {
             // Чтение данных, которые передаются в адресной строке.
             ViewBag.Message = Request.QueryString["message"];
             return View("Index");
         }
-
-
     }
 }

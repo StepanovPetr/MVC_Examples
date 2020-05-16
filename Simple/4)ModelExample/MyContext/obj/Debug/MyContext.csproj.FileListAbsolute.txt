@@ -22,3 +22,17 @@ C:\Users\DruiD\Desktop\Методичка\4)ModelExample\MyContext\bin\Debug\Ent
 C:\Users\DruiD\Desktop\Методичка\4)ModelExample\MyContext\obj\Debug\MyContext.csprojResolveAssemblyReference.cache
 C:\Users\DruiD\Desktop\Методичка\4)ModelExample\MyContext\obj\Debug\MyContext.dll
 C:\Users\DruiD\Desktop\Методичка\4)ModelExample\MyContext\obj\Debug\MyContext.pdb
+E:\Sources\C#\MVC_Examples\Simple\4)ModelExample\MyContext\bin\Debug\MyContext.dll.config
+E:\Sources\C#\MVC_Examples\Simple\4)ModelExample\MyContext\bin\Debug\MyContext.dll
+E:\Sources\C#\MVC_Examples\Simple\4)ModelExample\MyContext\bin\Debug\MyContext.pdb
+E:\Sources\C#\MVC_Examples\Simple\4)ModelExample\MyContext\bin\Debug\EntityFramework.dll
+E:\Sources\C#\MVC_Examples\Simple\4)ModelExample\MyContext\bin\Debug\EntityFramework.SqlServer.dll
+E:\Sources\C#\MVC_Examples\Simple\4)ModelExample\MyContext\bin\Debug\Model_2.dll
+E:\Sources\C#\MVC_Examples\Simple\4)ModelExample\MyContext\bin\Debug\Model_2.pdb
+E:\Sources\C#\MVC_Examples\Simple\4)ModelExample\MyContext\bin\Debug\EntityFramework.xml
+E:\Sources\C#\MVC_Examples\Simple\4)ModelExample\MyContext\bin\Debug\EntityFramework.SqlServer.xml
+E:\Sources\C#\MVC_Examples\Simple\4)ModelExample\MyContext\obj\Debug\MyContext.csprojAssemblyReference.cache
+E:\Sources\C#\MVC_Examples\Simple\4)ModelExample\MyContext\obj\Debug\MyContext.csproj.CoreCompileInputs.cache
+E:\Sources\C#\MVC_Examples\Simple\4)ModelExample\MyContext\obj\Debug\MyContext.csproj.CopyComplete
+E:\Sources\C#\MVC_Examples\Simple\4)ModelExample\MyContext\obj\Debug\MyContext.dll
+E:\Sources\C#\MVC_Examples\Simple\4)ModelExample\MyContext\obj\Debug\MyContext.pdb

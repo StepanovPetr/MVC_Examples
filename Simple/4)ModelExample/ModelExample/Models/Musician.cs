@@ -5,17 +5,16 @@ using System.Web;
 
 namespace ModelExample.Models
 {
-
-    //Класс Музыкант
+    // Класс музыкант.
     public class Musician
     {
-        // Имя Музыканта 
+        // Имя музыканта. 
         public string Name { get; set; }
-        // Инструмент на котором играет музыкант
+        // Инструмент, на котором играет музыкант.
         public string MusicalInstrument { get; set; }
-        // Дата присоединения к группе
+        // Дата присоединения к группе.
         public DateTime YearOfBirth { get; set; }
-        // Открытый конструктор класса Музыкант
+        // Открытый конструктор класса музыкант.
         public Musician()
         {
             this.Name = "";
