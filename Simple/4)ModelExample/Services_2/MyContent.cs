@@ -9,7 +9,7 @@ using MyContext;
 
 namespace Services_2
 {
-   public  class DbServises
+   public class DbServises
     {
 
         private MyContent db { get; set; }
@@ -17,11 +17,7 @@ namespace Services_2
         public DbServises()
         {
             db = new MyContent();
-            
-            
-
         }
-
 
         public async Task<DbSet<Band>> SelectAllAsinc()
         {
@@ -31,13 +27,11 @@ namespace Services_2
         public DbSet<Band> SelectAll()
         {
             return db.Bands;
-
         }
 
         public Band FindElem(int ID)
         {
             return db.Bands.FirstOrDefault(s => s.Id == ID);
-
         }
 
         public bool EditElem(Band band)
@@ -52,17 +46,13 @@ namespace Services_2
             db.Bands.Remove(this.FindElem(id));
             db.SaveChanges();
             return true;
-
         }
-
 
         public bool AddElem(Band band)
         {
             db.Bands.Add(band);
             db.SaveChanges();
             return true;
-            
         }
-
     }
 }
